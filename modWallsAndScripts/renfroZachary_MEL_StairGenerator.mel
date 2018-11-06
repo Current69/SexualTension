@@ -1,0 +1,13 @@
+// executes the command 10 times
+    //$i is how many steps there are
+for ( $i=0; $i<10; $i++ ){
+			// selects the wall
+			select -r GEO_Wall1Front ;;
+
+            // duplicates the wall
+            duplicate -rr;
+            
+			// move the wall a bit in z (x,y,z ordering)
+			xform -translation 0 ($i*1) ($i*1);
+			
+		}

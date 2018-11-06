@@ -1,0 +1,206 @@
+global proc shelf_ZachTools () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<10; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\tselect -r GEO_Wall1Front ;;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation 0 ($i*2) (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Wall" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "Wall" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<10; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\tselect -r GEO_Wall1Front ;;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation 0 ($i*2) (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<1; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\tselect -r GEO_WallCorner ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation 0 ($i*2) (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Corner" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "Corner" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<1; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\tselect -r GEO_WallCorner ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation 0 ($i*2) (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "// executes the command 10 times\n    //$i is how long it is\n    for( $i=0; $i<10; ++$i )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\t\n                select -r GEO_TunnelFront ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation 0 0 ($i*1);\n    \t\t\t\n    \t\t}" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Tunnel" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "Tunnel" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// executes the command 10 times\n    //$i is how long it is\n    for( $i=0; $i<10; ++$i )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\t\n                select -r GEO_TunnelFront ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation 0 0 ($i*1);\n    \t\t\t\n    \t\t}" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "// executes the command 10 times\n    //$i is how many steps there are\nfor ( $i=0; $i<10; $i++ ){\n\t\t\t// selects the wall\n\t\t\tselect -r GEO_Wall1Front ;;\n\n            // duplicates the wall\n            duplicate -rr;\n            \n\t\t\t// move the wall a bit in z (x,y,z ordering)\n\t\t\txform -translation 0 ($i*1) ($i*1);\n\t\t\t\n\t\t}\n" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Stairs" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "Stairs" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// executes the command 10 times\n    //$i is how many steps there are\nfor ( $i=0; $i<10; $i++ ){\n\t\t\t// selects the wall\n\t\t\tselect -r GEO_Wall1Front ;;\n\n            // duplicates the wall\n            duplicate -rr;\n            \n\t\t\t// move the wall a bit in z (x,y,z ordering)\n\t\t\txform -translation 0 ($i*1) ($i*1);\n\t\t\t\n\t\t}\n" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<10; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\t\n                select -r GEO_FloorBase ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation ($i*1) 0 (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Floor" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "Floor" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<10; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\t\n                select -r GEO_FloorBase ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation ($i*1) 0 (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<10; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\t\n                select -r GEO_CeilingBase ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation ($i*1) 0 (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Ceiling" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "Ceiling" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// executes the command 10 times\n    //$i is how many rows there are\n    //$j is how many columns there are\nfor ( $i=0; $i<2; $i++ ){\n    for( $j=0; $j<10; ++$j )\n    \t\t{\n    \t\t\t// selects the wall\n    \t\t\t\n                select -r GEO_CeilingBase ;\n    \n                // duplicates the wall\n                duplicate -rr;\n                \n    \t\t\t// move the wall a bit in z (x,y,z ordering)\n    \t\t\txform -translation ($i*1) 0 (1*$j);\n    \t\t\t\n    \t\t}\n    \t}" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+
+} 

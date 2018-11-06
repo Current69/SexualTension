@@ -1,0 +1,1088 @@
+﻿Log file open, 10/30/18 21:35:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ZanyHammerEX2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.337052
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.158s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 960
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.31-04.35.18:009][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.31-04.35.18:009][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.31-04.35.18:030][  0]LogHAL: Display: Platform has ~ 16 GB [17125388288 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.31-04.35.18:030][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.31-04.35.18:030][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.31-04.35.18:030][  0]LogInit: Computer: TITANTOWER
+[2018.10.31-04.35.18:030][  0]LogInit: User: Daniel
+[2018.10.31-04.35.18:030][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.31-04.35.18:030][  0]LogInit: High frequency timer resolution =3.906349 MHz
+[2018.10.31-04.35.18:031][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.31-04.35.18:031][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.31-04.35.18:031][  0]LogMemory: Process Physical Memory: 101.64 MB used, 101.64 MB peak
+[2018.10.31-04.35.18:031][  0]LogMemory: Process Virtual Memory: 93.19 MB used, 93.19 MB peak
+[2018.10.31-04.35.18:031][  0]LogMemory: Physical Memory: 10872.05 MB used,  5459.99 MB free, 16332.04 MB total
+[2018.10.31-04.35.18:031][  0]LogMemory: Virtual Memory: 4642.52 MB used,  5459.99 MB free, 134217728.00 MB total
+[2018.10.31-04.35.18:060][  0]LogInit: Using OS detected language (en-US).
+[2018.10.31-04.35.18:060][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.31-04.35.18:061][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.31-04.35.18:573][  0]LogStreaming: Display: Took  0.513s to InitEngineTextLocalization.
+[2018.10.31-04.35.18:573][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.31-04.35.18:630][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.31-04.35.18:630][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.31-04.35.18:923][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.31-04.35.18:923][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.31-04.35.18:988][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.10.31-04.35.18:988][  0]LogD3D11RHI:       4062/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.31-04.35.18:990][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.31-04.35.18:991][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.31-04.35.18:991][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.31-04.35.19:005][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.31-04.35.19:005][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.31-04.35.19:005][  0]LogWindows: EnumDisplayDevices:
+[2018.10.31-04.35.19:005][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.10.31-04.35.19:005][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.10.31-04.35.19:006][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.10.31-04.35.19:006][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.10.31-04.35.19:006][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.31-04.35.19:006][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.10.31-04.35.19:006][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
+[2018.10.31-04.35.19:006][  0]LogD3D11RHI:      Driver Date: 12-15-2017
+[2018.10.31-04.35.19:006][  0]LogRHI: Texture pool is 2843 MB (70% of 4062 MB)
+[2018.10.31-04.35.19:047][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.31-04.35.19:061][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.31-04.35.19:139][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.31-04.35.20:392][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.31-04.35.20:395][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.31-04.35.20:396][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Intermediate/Shaders/WorkingDirectory/476/).
+[2018.10.31-04.35.20:397][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daniel/AppData/Local/Temp/UnrealShaderWorkingDir/544EA6A94FC92B571C18A1B8AF55FF83/'.
+[2018.10.31-04.35.20:737][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.31-04.35.20:761][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.31-04.35.20:784][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.31-04.35.20:806][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.31-04.35.20:828][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.31-04.35.20:850][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.31-04.35.20:873][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.31-04.35.20:896][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.31-04.35.20:907][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.31-04.35.21:033][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.31-04.35.21:113][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.31-04.35.21:113][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.31-04.35.21:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.31-04.35.21:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.31-04.35.21:172][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.31-04.35.21:192][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.31-04.35.21:214][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.31-04.35.21:236][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.31-04.35.21:251][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.31-04.35.21:251][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.31-04.35.21:347][  0]LogXGEController: Cleaning working directory: C:/Users/Daniel/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.31-04.35.21:347][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.31-04.35.21:348][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.31-04.35.21:348][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.31-04.35.22:572][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.31-04.35.22:667][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.31-04.35.22:667][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Daniel/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.31-04.35.22:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.31-04.35.22:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.31-04.35.22:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.31-04.35.22:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.31-04.35.22:686][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.31-04.35.22:699][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daniel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.31-04.35.22:699][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.31-04.35.22:699][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.31-04.35.22:728][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.31-04.35.22:730][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.31-04.35.22:731][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.31-04.35.22:828][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2018.10.31-04.35.23:436][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.31-04.35.23:841][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.31-04.35.23:847][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.31-04.35.23:847][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.31-04.35.23:847][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.31-04.35.23:847][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.31-04.35.23:878][  0]LogNetVersion: ZanyHammerEX2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3791590406)
+[2018.10.31-04.35.24:652][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.172402 seconds
+[2018.10.31-04.35.24:662][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.31-04.35.24:662][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.31-04.35.24:662][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.31-04.35.25:940][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.31-04.35.25:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.31-04.35.26:138][  0]SourceControl: Source control is disabled
+[2018.10.31-04.35.26:139][  0]SourceControl: Source control is disabled
+[2018.10.31-04.35.26:141][  0]SourceControl: Source control is disabled
+[2018.10.31-04.35.26:142][  0]SourceControl: Source control is disabled
+[2018.10.31-04.35.26:381][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.31-04.35.26:516][  0]LogOcInput: OculusInput pre-init called
+[2018.10.31-04.35.26:612][  0]LogEngine: Initializing Engine...
+[2018.10.31-04.35.26:613][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.31-04.35.26:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.31-04.35.26:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.31-04.35.26:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.31-04.35.26:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.31-04.35.26:929][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.31-04.35.26:957][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.31-04.35.26:997][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-04.35.27:017][  0]LogInit: FAudioDevice initialized.
+[2018.10.31-04.35.27:017][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.31-04.35.27:146][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.31-04.35.27:162][  0]LogInit: Texture streaming: Enabled
+[2018.10.31-04.35.27:195][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.31-04.35.27:226][  0]LogInit: Transaction tracking system initialized
+[2018.10.31-04.35.27:274][  0]BlueprintLog: New page: Editor Load
+[2018.10.31-04.35.27:408][  0]LocalizationService: Localization service is disabled
+[2018.10.31-04.35.27:517][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.10.31-04.35.27:517][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.10.31-04.35.27:517][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.10.31-04.35.27:839][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.31-04.35.27:839][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.31-04.35.27:839][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.31-04.35.27:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.31-04.35.27:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.31-04.35.27:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.31-04.35.27:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.31-04.35.28:046][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Content/' took 0.02s
+[2018.10.31-04.35.28:046][  0]SourceControl: Source control is disabled
+[2018.10.31-04.35.28:046][  0]Cmd: MAP LOAD FILE="D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.31-04.35.28:047][  0]LightingResults: New page: Lighting Build
+[2018.10.31-04.35.28:053][  0]MapCheck: New page: Map Check
+[2018.10.31-04.35.28:053][  0]LightingResults: New page: Lighting Build
+[2018.10.31-04.35.29:768][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-04.35.29:953][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.31-04.35.30:057][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.31-04.35.30:222][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 164.685ms to complete.
+[2018.10.31-04.35.30:222][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.175
+[2018.10.31-04.35.30:353][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-04.35.30:365][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-04.35.30:376][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-04.35.30:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-04.35.30:397][  0]LogCollectionManager: Loaded 0 collections in 0.002934 seconds
+[2018.10.31-04.35.30:451][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Collections/' took 0.01s
+[2018.10.31-04.35.30:451][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Content/Developers/Daniel/Collections/' took 0.01s
+[2018.10.31-04.35.30:451][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Content/Collections/' took 0.01s
+[2018.10.31-04.35.30:451][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.31-04.35.30:469][  0]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2572 classes and 603 folders.
+[2018.10.31-04.35.30:478][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.31-04.35.30:564][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.31-04.35.30:573][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.10.31-04.35.30:720][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.31-04.35.30:722][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.31-04.35.30:730][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.31-04.35.30:862][  0]LogRenderer: Reallocating scene render targets to support 1072x628 Format 10 NumSamples 1 (Frame:1).
+[2018.10.31-04.35.31:099][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.31-04.35.31:194][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.31-04.35.31:194][  0]LogLoad: (Engine Initialization) Total time: 15.88 seconds
+[2018.10.31-04.35.31:194][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.31-04.35.31:283][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.31-04.35.31:580][  3]LogAssetRegistry: Asset discovery search completed in 8.7738 seconds
+[2018.10.31-04.35.31:583][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.31-04.35.31:583][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000104 seconds (updated 0 objects)
+[2018.10.31-04.35.32:581][  6]LogSlate: Took 0.000492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.31-04.35.43:489][ 80]LogEditorViewport: Clicking on Actor (LMB): Emitter (PS_Balloons)
+[2018.10.31-04.35.43:738][ 82]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.31-04.35.46:408][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.36.05:070][373]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Assets/PowerGlove/powerglovefinalANIM_PhysicsAsset.powerglovefinalANIM_PhysicsAsset
+[2018.10.31-04.36.05:081][373]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2018.10.31-04.36.05:171][373]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.31-04.36.05:448][373]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.10.31-04.36.05:461][373]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.10.31-04.36.05:953][373]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.31-04.36.06:022][373]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.10.31-04.36.07:937][438]LogRenderer: Reallocating scene render targets to support 1144x888 Format 10 NumSamples 1 (Frame:69).
+[2018.10.31-04.36.09:825][523]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Assets/PowerGlove/powerglovefinalANIM.powerglovefinalANIM
+[2018.10.31-04.36.09:841][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.31-04.36.09:904][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.10.31-04.36.10:322][523]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.31-04.36.11:044][556]LogSlate: Window 'powerglovefinalANIM' being destroyed
+[2018.10.31-04.36.11:054][556]LogSlate: Window 'powerglovefinalANIM' being destroyed
+[2018.10.31-04.36.16:698][842]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.31-04.36.18:928][891]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character)
+[2018.10.31-04.36.19:953][914]LogEditorViewport: Clicking on Actor (LMB): BP_Character_C (BP_Character)
+[2018.10.31-04.36.20:019][914]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2018.10.31-04.36.22:220][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.36.22:303][968]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/StarterContent/Blueprints/BP_Character.BP_Character
+[2018.10.31-04.36.23:082][968]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 116 classes and 0 folders.
+[2018.10.31-04.36.27:257][ 28]LogRenderer: Reallocating scene render targets to support 1284x888 Format 10 NumSamples 1 (Frame:1).
+[2018.10.31-04.36.30:867][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.36.31:070][106]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Assets/PowerGlove/gloveprototype2.gloveprototype2
+[2018.10.31-04.36.31:080][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.31-04.36.31:142][106]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.10.31-04.36.33:640][131]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Assets/PowerGlove/playerATK.playerATK
+[2018.10.31-04.36.33:656][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.31-04.36.33:711][131]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.10.31-04.36.34:329][131]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.10.31-04.36.44:892][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.36.44:958][328]LogSlate: Window 'playerATK' being destroyed
+[2018.10.31-04.36.44:969][328]LogSlate: Window 'playerATK' being destroyed
+[2018.10.31-04.36.52:690][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.37.02:446][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/BP_Melee_Hammer1.BP_Melee_Hammer1
+[2018.10.31-04.37.08:913][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.40.23:440][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.40.35:214][ 43]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Daniel\Desktop\Zany Hammer\Import\Import\enemy1.fbx)
+[2018.10.31-04.40.35:235][ 43]LogFbx: Loading FBX Scene from C:\Users\Daniel\Desktop\Zany Hammer\Import\Import\enemy1.fbx
+[2018.10.31-04.40.35:249][ 43]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.31-04.40.36:849][ 43]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.31-04.40.36:933][ 43]LogFbx: Warning: Triangulating static mesh pCylinder1
+[2018.10.31-04.40.36:986][ 43]LogStaticMesh: Building static mesh enemy1_pCylinder1...
+[2018.10.31-04.40.37:012][ 43]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/enemy1_pCylinder1.enemy1_pCylinder1
+[2018.10.31-04.40.37:017][ 43]LogFbx: Warning: Triangulating static mesh pSphere1
+[2018.10.31-04.40.37:035][ 43]LogStaticMesh: Building static mesh enemy1_pSphere1...
+[2018.10.31-04.40.37:043][ 43]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/enemy1_pSphere1.enemy1_pSphere1
+[2018.10.31-04.40.44:544][123]LogActorFactory: Actor Factory created enemy1_pCylinder1
+[2018.10.31-04.40.44:547][123]LogActorFactory: Actor Factory created enemy1_pSphere1
+[2018.10.31-04.40.45:211][136]LogActorFactory: Actor Factory created enemy1_pCylinder1
+[2018.10.31-04.40.45:279][136]LogActorFactory: Actor Factory created enemy1_pSphere1
+[2018.10.31-04.41.02:356][599]Cmd: TRANSACTION UNDO
+[2018.10.31-04.41.02:357][599]LogEditorTransaction: Undo Move Actors
+[2018.10.31-04.41.04:012][690]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.31-04.42.37:408][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.42.40:578][184]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.31-04.42.47:890][377]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Daniel\Desktop\Zany Hammer\Import\Import\enemy1.fbx)
+[2018.10.31-04.42.47:906][377]LogFbx: Loading FBX Scene from C:\Users\Daniel\Desktop\Zany Hammer\Import\Import\enemy1.fbx
+[2018.10.31-04.42.47:918][377]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.31-04.42.51:208][377]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.31-04.42.51:268][377]LogFbx: Warning: Triangulating static mesh pSphere2
+[2018.10.31-04.42.51:312][377]LogStaticMesh: Building static mesh enemy1...
+[2018.10.31-04.42.51:353][377]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/enemy1.enemy1
+[2018.10.31-04.42.53:685][516]LogActorFactory: Actor Factory created enemy1
+[2018.10.31-04.42.54:175][555]LogActorFactory: Actor Factory created enemy1
+[2018.10.31-04.42.54:329][560]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.31-04.42.59:710][919]Cmd: TRANSACTION UNDO
+[2018.10.31-04.42.59:710][919]LogEditorTransaction: Undo Move Actors
+[2018.10.31-04.43.45:860][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.44.00:245][345]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.31-04.44.20:318][708]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/BP_Enemy1.BP_Enemy1
+[2018.10.31-04.46.10:249][987]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.31-04.46.14:019][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.31-04.46.32:050][ 55]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.31-04.46.44:725][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.46.53:656][106]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.31-04.46.56:518][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.47.04:851][613]LogEditorTransaction: Undo Set Scale
+[2018.10.31-04.47.05:671][613]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.815 s
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: 
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: 
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: Stack: 
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: [Callstack] 0x00007ffb56d971f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.31-04.47.05:671][613]LogOutputDevice: Error: [Callstack] 0x00007ffb56ad0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb56aeb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb4732eedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb472d4514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb43fc41a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb43fc4ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb43f71a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb565cd0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb56593f79 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb56636a2e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb564493b0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb563e1444 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb508b0014 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb50528d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb504bf869 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb508b4833 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb5089b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb5084b524 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb508a0f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb5045b41b UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb504e843e UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb50535d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb472d4dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb473001fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb472e6535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb47352dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb47399b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb4732c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb504c05b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb563e24df UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb5642437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb47b83a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb47b71a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb563a70ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb5642606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb56419846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb8a23ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb8a230270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb8a23f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb8a22c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffbea1b6cc1 USER32.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffbea1b6693 USER32.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffb8a240646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ff6b3d954e5 UE4Editor.exe!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ff6b3da5b3c UE4Editor.exe!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ff6b3da5bba UE4Editor.exe!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ff6b3db3dac UE4Editor.exe!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ff6b3db5aaa UE4Editor.exe!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffbec243034 KERNEL32.DLL!UnknownFunction []
+[2018.10.31-04.47.05:672][613]LogOutputDevice: Error: [Callstack] 0x00007ffbec391461 ntdll.dll!UnknownFunction []
+[2018.10.31-04.47.05:673][613]LogOutputDevice: Error: 
+[2018.10.31-04.47.05:675][613]LogStats:                SubmitErrorReport -  0.000 s
+[2018.10.31-04.47.06:431][613]LogStats:                    SendNewReport -  0.756 s
+[2018.10.31-04.47.06:431][613]LogStats:             FDebug::EnsureFailed -  1.575 s
+[2018.10.31-04.47.06:456][613]Cmd: TRANSACTION UNDO
+[2018.10.31-04.47.06:456][613]LogEditorTransaction: Undo Edit Capsule Half Height
+[2018.10.31-04.47.16:417][ 67]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.31-04.47.20:512][244]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.31-04.47.27:872][581]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.31-04.47.47:721][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.47.50:493][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.47.51:098][674]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-04.47.57:841][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-04.48.43:816][926]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-04.48.48:577][154]LogSlate: Window 'BP_Enemy1*' being destroyed
+[2018.10.31-04.48.48:585][154]LogSlate: Window 'BP_Enemy1*' being destroyed
+[2018.10.31-04.49.02:391][ 44]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/BP_Melee_Hammer1.BP_Melee_Hammer1
+[2018.10.31-04.50.01:122][ 79]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Minimal_Default_Auto1300D899F4837AA00CD40EF9A59FB3654.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2018.10.31-04.50.01:137][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.956
+[2018.10.31-04.50.01:137][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.956
+[2018.10.31-04.50.01:142][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Melee_Hammer1] ([1] browsable assets)...
+[2018.10.31-04.50.01:167][ 79]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Melee_Hammer1.BP_Melee_Hammer1]
+[2018.10.31-04.50.01:167][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Melee_Hammer1]
+[2018.10.31-04.50.01:253][ 79]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/BP_Melee_Hammer1_Auto16B8CAC884BB8C1D2449EBD9034901600.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Blueprint/BP_Melee_Hammer1_Auto1.uasset'
+[2018.10.31-04.50.01:255][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Enemy1] ([1] browsable assets)...
+[2018.10.31-04.50.01:279][ 79]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Enemy1.BP_Enemy1]
+[2018.10.31-04.50.01:279][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Enemy1]
+[2018.10.31-04.50.01:279][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Enemy1" FILE="D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Blueprint/BP_Enemy1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.31-04.50.01:308][ 79]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/BP_Enemy1_Auto169271B5B4B0D7EA40FC8F3933A82A98D.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Blueprint/BP_Enemy1_Auto1.uasset'
+[2018.10.31-04.50.01:310][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/enemy1] ([1] browsable assets)...
+[2018.10.31-04.50.01:333][ 79]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/enemy1.enemy1]
+[2018.10.31-04.50.01:333][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/enemy1]
+[2018.10.31-04.50.01:333][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/enemy1" FILE="D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Assets/enemy1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.31-04.50.01:356][ 79]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/enemy1_Auto1C8F139A243DEDE1DE7C1B781E44D0CBF.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Assets/enemy1_Auto1.uasset'
+[2018.10.31-04.50.01:358][ 79]LogFileHelpers: Auto-saving content packages took 0.217
+[2018.10.31-04.52.28:685][164]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/BP_Enemy1.BP_Enemy1
+[2018.10.31-04.52.57:278][672]LogSlate: Took 0.007609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.31-04.54.35:186][748]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/StarterContent/Blueprints/BP_Character.BP_Character
+[2018.10.31-04.57.49:592][424]LogEditorTransaction: Undo Move Nodes
+[2018.10.31-04.59.18:071][724]Cmd: TRANSACTION UNDO
+[2018.10.31-04.59.18:071][724]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.02.17:227][524]BlueprintLog: New page: Compile BP_Melee_Hammer1
+[2018.10.31-05.03.33:574][296]BlueprintLog: New page: Compile BP_Melee_Hammer1
+[2018.10.31-05.07.22:074][378]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.08.48:053][974]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.08.48:805][999]LogEditorTransaction: Undo Add Node
+[2018.10.31-05.08.50:597][ 82]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-05.08.55:608][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (enemy1)
+[2018.10.31-05.08.57:293][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.08.59:089][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.08.59:538][400]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.08.59:585][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.08.59:586][400]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.31-05.08.59:627][400]LogPlayLevel: [PlayLevel] Compiling BP_Character before play...
+[2018.10.31-05.09.00:068][400]LogPlayLevel: PlayLevel: Blueprint regeneration took 482 ms (1 blueprints)
+[2018.10.31-05.09.00:081][400]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:09:00 PM)
+[2018.10.31-05.09.00:081][400]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.09.00:162][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080645s)
+[2018.10.31-05.09.00:163][400]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.09.00:164][400]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2018.10.31-05.09.00:164][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.082588s)
+[2018.10.31-05.09.00:309][400]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.09.00:321][400]LogInit: FAudioDevice initialized.
+[2018.10.31-05.09.00:345][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.09.00:431][400]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.09.00:488][400]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.09.00
+[2018.10.31-05.09.00:491][400]LogWorld: Bringing up level for play took: 0.058677
+[2018.10.31-05.09.00:517][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.10.31-05.09.00:528][400]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.846
+[2018.10.31-05.09.00:529][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.09.00:595][400]LogRenderer: Reallocating scene render targets to support 1292x888 Format 10 NumSamples 1 (Frame:1).
+[2018.10.31-05.09.01:307][410]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.09.01:307][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.09.01:307][410]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.09.01:307][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.09.03:091][469]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:052E
+[2018.10.31-05.09.03:091][469]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.09.03:531][487]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.09.03:592][489]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.09.04:295][510]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.09.23:348][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.09.23:349][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.09.23:388][571]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.09.23:440][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.09.23:440][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.09.23:651][572]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.31-05.10.52:681][135]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-05.11.00:462][448]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.11.00:536][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.00:536][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.11.00:536][448]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:11:00 PM)
+[2018.10.31-05.11.00:536][448]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.11.00:620][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083905s)
+[2018.10.31-05.11.00:621][448]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.11.00:621][448]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2018.10.31-05.11.00:622][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.085620s)
+[2018.10.31-05.11.00:772][448]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.11.00:786][448]LogInit: FAudioDevice initialized.
+[2018.10.31-05.11.00:806][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.11.00:864][448]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.11.00:907][448]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.11.00
+[2018.10.31-05.11.00:910][448]LogWorld: Bringing up level for play took: 0.044611
+[2018.10.31-05.11.00:933][448]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.251
+[2018.10.31-05.11.00:933][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.02:515][472]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.11.02:515][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.11.02:515][472]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.11.02:515][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.11.08:284][646]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.11.08:836][657]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.11.09:674][681]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.11.16:519][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.16:519][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.11.16:557][ 42]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.11.16:615][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.11.16:616][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.16:811][ 43]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.31-05.11.20:800][219]Cmd: TRANSACTION UNDO
+[2018.10.31-05.11.20:801][219]LogEditorTransaction: Undo Create Actors
+[2018.10.31-05.11.22:580][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.11.22:669][296]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.11.22:681][296]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.11.23:634][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.10.31-05.11.29:734][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (enemy1)
+[2018.10.31-05.11.31:658][726]Cmd: DELETE
+[2018.10.31-05.11.31:658][726]Cmd: ACTOR DELETE
+[2018.10.31-05.11.31:708][726]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.31-05.11.31:820][726]LogEditorActor: Deleted 1 Actors (0.153 secs)
+[2018.10.31-05.11.32:710][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.11.39:574][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.11.39:631][ 84]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.11.39:675][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.39:675][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.11.39:675][ 84]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:11:39 PM)
+[2018.10.31-05.11.39:675][ 84]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.11.39:756][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080913s)
+[2018.10.31-05.11.39:757][ 84]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.11.39:757][ 84]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2018.10.31-05.11.39:758][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.082976s)
+[2018.10.31-05.11.39:911][ 84]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.11.39:923][ 84]LogInit: FAudioDevice initialized.
+[2018.10.31-05.11.39:943][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.11.39:998][ 84]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.11.40:049][ 84]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.11.40
+[2018.10.31-05.11.40:053][ 84]LogWorld: Bringing up level for play took: 0.053677
+[2018.10.31-05.11.40:074][ 84]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.392
+[2018.10.31-05.11.40:075][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.41:515][107]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.11.41:515][107]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.11.41:515][107]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.11.41:515][107]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.11.43:488][181]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.11.43:545][184]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.11.44:780][243]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.11.53:115][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.53:115][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.11.53:154][729]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.11.53:223][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.11.53:223][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.53:449][730]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.31-05.11.54:676][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.10.31-05.11.55:595][826]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy1_C (BP_Enemy1)
+[2018.10.31-05.11.59:804][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.11.59:867][ 18]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.11.59:905][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.11.59:906][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.11.59:906][ 18]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:11:59 PM)
+[2018.10.31-05.11.59:906][ 18]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.11.59:990][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083543s)
+[2018.10.31-05.11.59:991][ 18]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.11.59:991][ 18]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2018.10.31-05.11.59:991][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.085444s)
+[2018.10.31-05.12.00:150][ 18]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.12.00:162][ 18]LogInit: FAudioDevice initialized.
+[2018.10.31-05.12.00:183][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.12.00:241][ 18]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.12.00:288][ 18]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.12.00
+[2018.10.31-05.12.00:291][ 18]LogWorld: Bringing up level for play took: 0.049444
+[2018.10.31-05.12.00:313][ 18]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.631
+[2018.10.31-05.12.00:313][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.12.00:968][ 26]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.12.00:968][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.12.00:968][ 26]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.12.00:968][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.12.02:275][ 62]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.12.02:432][ 67]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.12.03:102][ 85]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.12.09:053][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.12.09:054][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.12.09:092][430]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.12.09:162][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.12.09:162][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.12.09:376][431]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.10.31-05.13.06:130][199]BlueprintLog: New page: Compile BP_Character
+[2018.10.31-05.13.06:200][199]LogBlueprint: Error: [Compiler BP_Character] This blueprint (self) is not a BP_Melee_Hammer1_C, therefore ' Target ' must have a connection.
+[2018.10.31-05.13.06:200][199]LogBlueprint: Error: [Compiler BP_Character] This blueprint (self) is not a BP_Melee_Hammer1_C, therefore ' Target ' must have a connection.
+[2018.10.31-05.13.06:201][199]LogBlueprint: Error: [Compiler BP_Character] Variable node  Set equipped  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.10.31-05.13.06:201][199]LogBlueprint: Error: [Compiler BP_Character] Variable node  Set equipped  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.10.31-05.13.06:561][199]LogBlueprint: Warning: [Compiler BP_Character] [2271.25] Compile of BP_Character failed. 4 Fatal Issue(s) 0 Warning(s) [in 430 ms] (/Game/StarterContent/Blueprints/BP_Character.BP_Character)
+[2018.10.31-05.13.26:194][246]BlueprintLog: New page: Compile BP_Character
+[2018.10.31-05.13.26:271][246]LogBlueprint: Error: [Compiler BP_Character] This blueprint (self) is not a BP_Melee_Hammer1_C, therefore ' Target ' must have a connection.
+[2018.10.31-05.13.26:271][246]LogBlueprint: Error: [Compiler BP_Character] This blueprint (self) is not a BP_Melee_Hammer1_C, therefore ' Target ' must have a connection.
+[2018.10.31-05.13.26:272][246]LogBlueprint: Error: [Compiler BP_Character] Variable node  Set equipped  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.10.31-05.13.26:273][246]LogBlueprint: Error: [Compiler BP_Character] Variable node  Set equipped  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.10.31-05.13.26:640][246]LogBlueprint: Warning: [Compiler BP_Character] [2291.33] Compile of BP_Character failed. 4 Fatal Issue(s) 0 Warning(s) [in 445 ms] (/Game/StarterContent/Blueprints/BP_Character.BP_Character)
+[2018.10.31-05.14.33:333][356]BlueprintLog: New page: Compile BP_Character
+[2018.10.31-05.14.46:404][952]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.14.46:473][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.14.46:474][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.14.46:474][952]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:14:46 PM)
+[2018.10.31-05.14.46:474][952]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.14.46:558][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083896s)
+[2018.10.31-05.14.46:559][952]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.14.46:559][952]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2018.10.31-05.14.46:560][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.085935s)
+[2018.10.31-05.14.46:714][952]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.14.46:726][952]LogInit: FAudioDevice initialized.
+[2018.10.31-05.14.46:746][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.14.46:803][952]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.14.46:850][952]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.14.46
+[2018.10.31-05.14.46:853][952]LogWorld: Bringing up level for play took: 0.049888
+[2018.10.31-05.14.46:874][952]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.192
+[2018.10.31-05.14.46:875][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.14.47:714][963]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.14.47:714][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.14.47:714][963]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.14.47:714][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.14.50:518][ 22]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.14.50:592][ 25]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.14.51:229][ 48]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.15.03:215][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.15.03:215][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.15.03:254][642]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.15.03:351][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.15.03:351][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.15.03:644][643]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.10.31-05.17.37:357][ 58]BlueprintLog: New page: Compile BP_Character
+[2018.10.31-05.17.43:405][329]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.17.43:477][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.17.43:477][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.17.43:478][329]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:17:43 PM)
+[2018.10.31-05.17.43:478][329]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.17.43:565][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087149s)
+[2018.10.31-05.17.43:566][329]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.17.43:566][329]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2018.10.31-05.17.43:566][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.088766s)
+[2018.10.31-05.17.43:722][329]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.17.43:735][329]LogInit: FAudioDevice initialized.
+[2018.10.31-05.17.43:754][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.17.43:811][329]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.17.43:855][329]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.17.43
+[2018.10.31-05.17.43:858][329]LogWorld: Bringing up level for play took: 0.045763
+[2018.10.31-05.17.43:878][329]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.196
+[2018.10.31-05.17.43:879][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.17.48:479][438]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0691
+[2018.10.31-05.17.48:479][438]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.17.48:839][448]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.17.48:976][452]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.17.49:479][465]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.18.01:533][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.18.01:534][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.18.01:568][ 28]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.18.01:657][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.18.01:658][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.18.01:952][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.10.31-05.18.04:225][133]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.04:225][133]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.18.04:486][141]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.04:486][141]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.18.04:701][143]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.04:701][143]LogEditorTransaction: Undo Delete current selection
+[2018.10.31-05.18.04:974][148]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.04:974][148]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.18.05:282][162]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.05:282][162]LogEditorTransaction: Undo Change Bool Pin Value
+[2018.10.31-05.18.05:576][168]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.05:576][168]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.18.05:803][171]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.05:804][171]LogEditorTransaction: Undo Add Node
+[2018.10.31-05.18.06:069][176]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.06:069][176]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.18.06:317][186]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.06:317][186]LogEditorTransaction: Undo Add Node
+[2018.10.31-05.18.06:781][201]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.06:781][201]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.18.07:300][220]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.07:300][220]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.18.07:767][237]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.07:767][237]LogEditorTransaction: Undo Add Node
+[2018.10.31-05.18.08:213][252]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.08:213][252]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.18.08:676][275]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.08:677][275]LogEditorTransaction: Undo Delete current selection
+[2018.10.31-05.18.09:115][284]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.09:115][284]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.18.09:696][305]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.09:696][305]LogEditorTransaction: Undo Delete current selection
+[2018.10.31-05.18.10:009][313]Cmd: TRANSACTION UNDO
+[2018.10.31-05.18.10:009][313]LogEditorTransaction: Undo Move Node
+[2018.10.31-05.18.43:487][992]BlueprintLog: New page: Compile BP_Character
+[2018.10.31-05.18.57:356][563]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Minimal_Default_Auto2FD8910274FD1FFD4F07E818B6C81403A.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2018.10.31-05.18.57:369][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.938
+[2018.10.31-05.18.57:369][563]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.938
+[2018.10.31-05.18.57:374][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/BP_Character] ([1] browsable assets)...
+[2018.10.31-05.18.57:409][563]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/BP_Character.BP_Character]
+[2018.10.31-05.18.57:409][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/BP_Character]
+[2018.10.31-05.18.57:523][563]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/BP_Character_Auto27E65139E46C4F8CEDB806BAF20B181CA.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/StarterContent/Blueprints/BP_Character_Auto2.uasset'
+[2018.10.31-05.18.57:551][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Melee_Hammer1] ([1] browsable assets)...
+[2018.10.31-05.18.57:574][563]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Melee_Hammer1.BP_Melee_Hammer1]
+[2018.10.31-05.18.57:574][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Melee_Hammer1]
+[2018.10.31-05.18.57:671][563]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/BP_Melee_Hammer1_Auto2A609F4174568FC1D74E4B8A3041B524B.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Blueprint/BP_Melee_Hammer1_Auto2.uasset'
+[2018.10.31-05.18.57:674][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Enemy1] ([1] browsable assets)...
+[2018.10.31-05.18.57:699][563]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Enemy1.BP_Enemy1]
+[2018.10.31-05.18.57:699][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Enemy1]
+[2018.10.31-05.18.57:699][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Enemy1" FILE="D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Blueprint/BP_Enemy1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.10.31-05.18.57:743][563]LogSavePackage: Moving 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/BP_Enemy1_Auto22883D46049A1CF9524CBEDB23ED082DD.tmp' to 'D:/Documents/Unreal Projects/exampleProject/ZanyHammerEX2/Saved/Autosaves/Game/Blueprint/BP_Enemy1_Auto2.uasset'
+[2018.10.31-05.18.57:744][563]LogFileHelpers: Auto-saving content packages took 0.371
+[2018.10.31-05.18.59:381][639]BlueprintLog: New page: Compile BP_Character
+[2018.10.31-05.19.01:967][742]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.19.01:977][742]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.19.03:085][800]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.19.03:154][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.03:154][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.19.03:154][800]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:19:03 PM)
+[2018.10.31-05.19.03:154][800]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.19.03:241][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086699s)
+[2018.10.31-05.19.03:242][800]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.19.03:243][800]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2018.10.31-05.19.03:243][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.088502s)
+[2018.10.31-05.19.03:398][800]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.19.03:410][800]LogInit: FAudioDevice initialized.
+[2018.10.31-05.19.03:432][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.19.03:486][800]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.19.03:534][800]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.19.03
+[2018.10.31-05.19.03:538][800]LogWorld: Bringing up level for play took: 0.050052
+[2018.10.31-05.19.03:559][800]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.123
+[2018.10.31-05.19.03:559][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.04:250][807]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.19.04:250][807]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.04:250][807]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.19.04:250][807]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.06:408][882]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.19.06:440][883]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.19.06:820][895]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.19.10:096][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.10:097][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.19.10:134][ 23]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.19.10:228][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.19.10:229][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.10:534][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.10.31-05.19.11:079][ 48]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.19.11:118][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.11:118][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.19.11:118][ 48]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:19:11 PM)
+[2018.10.31-05.19.11:119][ 48]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.19.11:200][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080929s)
+[2018.10.31-05.19.11:200][ 48]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.19.11:201][ 48]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2018.10.31-05.19.11:201][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.082377s)
+[2018.10.31-05.19.11:350][ 48]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.19.11:364][ 48]LogInit: FAudioDevice initialized.
+[2018.10.31-05.19.11:384][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.19.11:450][ 48]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.19.11:496][ 48]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.19.11
+[2018.10.31-05.19.11:499][ 48]LogWorld: Bringing up level for play took: 0.047721
+[2018.10.31-05.19.11:523][ 48]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.158
+[2018.10.31-05.19.11:525][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.12:662][ 65]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.19.12:662][ 65]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.12:662][ 65]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0089
+[2018.10.31-05.19.12:663][ 65]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.13:658][ 87]LogScript: Warning: Accessed None trying to read property myWeapon
+	BP_Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Character_2
+	Function /Game/StarterContent/Blueprints/BP_Character.BP_Character_C:ExecuteUbergraph_BP_Character:0065
+[2018.10.31-05.19.13:658][ 87]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.13:658][ 87]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.14:037][108]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.14:037][108]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.14:270][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.14:270][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.14:537][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.14:537][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.14:832][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.14:832][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.15:093][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.15:093][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.15:459][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.15:459][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.15:683][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.15:683][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.15:947][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.15:947][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.16:274][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.16:274][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.16:482][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.16:482][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.16:725][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.16:725][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.16:934][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.16:934][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.17:139][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.17:139][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.17:363][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.17:363][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.17:592][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.17:592][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.17:969][333]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.17:969][333]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.18:225][346]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.18:226][346]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.18:514][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.18:514][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.18:736][375]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.18:736][375]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.18:950][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.18:950][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.19:181][399]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.19:181][399]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.19:416][413]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.19:416][413]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.19:645][426]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.19:645][426]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.19:897][440]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.19:897][440]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.20:144][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.20:145][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.20:335][464]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.20:335][464]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.20:579][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.20:580][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.20:827][494]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.20:827][494]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.21:067][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.21:067][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.21:345][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.19.21:345][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.19.23:095][600]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.19.23:200][603]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.19.23:603][619]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.19.29:142][960]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.29:142][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.19.29:183][960]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.19.29:267][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.19.29:267][960]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.19.29:543][961]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.10.31-05.19.51:442][934]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.19.51:453][934]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.19.55:784][136]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy1_C (BP_Enemy1)
+[2018.10.31-05.19.58:223][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.20.10:288][805]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.31-05.21.07:956][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.21.23:125][962]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.10.31-05.21.23:125][962]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.10.31-05.21.23:125][962]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.10.31-05.21.24:773][ 40]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-05.21.27:162][121]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.21.27:206][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.21.27:206][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.21.27:206][121]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:21:27 PM)
+[2018.10.31-05.21.27:207][121]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.21.27:294][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086948s)
+[2018.10.31-05.21.27:294][121]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.21.27:295][121]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2018.10.31-05.21.27:295][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.088465s)
+[2018.10.31-05.21.27:439][121]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.21.27:452][121]LogInit: FAudioDevice initialized.
+[2018.10.31-05.21.27:472][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.21.27:530][121]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.21.27:577][121]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.21.27
+[2018.10.31-05.21.27:580][121]LogWorld: Bringing up level for play took: 0.048789
+[2018.10.31-05.21.27:600][121]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.082
+[2018.10.31-05.21.27:601][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.21.28:202][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.21.28:202][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.21.30:720][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.21.30:720][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.21.30:757][262]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.21.30:841][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.21.30:842][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.21.31:089][263]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.10.31-05.21.42:901][867]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-05.22.15:871][694]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-05.22.17:994][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.31-05.23.07:970][731]LogEditorTransaction: Undo Create Pin Link
+[2018.10.31-05.25.11:809][324]BlueprintLog: New page: Compile BP_Enemy1
+[2018.10.31-05.25.14:430][429]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.25.14:487][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.25.14:488][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.31-05.25.14:488][429]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:25:14 PM)
+[2018.10.31-05.25.14:488][429]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.25.14:574][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085912s)
+[2018.10.31-05.25.14:575][429]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.25.14:575][429]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2018.10.31-05.25.14:575][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.087563s)
+[2018.10.31-05.25.14:729][429]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.25.14:744][429]LogInit: FAudioDevice initialized.
+[2018.10.31-05.25.14:767][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.25.14:827][429]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.25.14:870][429]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.25.14
+[2018.10.31-05.25.14:873][429]LogWorld: Bringing up level for play took: 0.045318
+[2018.10.31-05.25.14:893][429]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.211
+[2018.10.31-05.25.14:894][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.25.15:712][439]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.25.15:712][439]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.25.17:658][487]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.25.18:282][503]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.25.18:652][515]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.25.18:850][521]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.25.19:595][542]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.25.37:733][550]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.25.37:734][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.25.37:771][550]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.25.37:841][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.25.37:841][550]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.25.38:056][551]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.10.31-05.26.20:647][652]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.26.20:657][652]LogSlate: Window 'Message Log' being destroyed
+[2018.10.31-05.27.53:098][689]BlueprintLog: New page: Compile BP_Melee_Hammer1
+[2018.10.31-05.28.14:173][874]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.31-05.28.14:234][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.28.14:235][874]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.31-05.28.14:245][874]LogPlayLevel: [PlayLevel] Compiling BP_Enemy1 before play...
+[2018.10.31-05.28.14:616][874]LogPlayLevel: PlayLevel: Blueprint regeneration took 381 ms (1 blueprints)
+[2018.10.31-05.28.14:617][874]PIE: New page: PIE session: Minimal_Default (Oct 30, 2018, 3:28:14 PM)
+[2018.10.31-05.28.14:617][874]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.31-05.28.14:704][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087690s)
+[2018.10.31-05.28.14:706][874]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.31-05.28.14:706][874]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2018.10.31-05.28.14:706][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.089359s)
+[2018.10.31-05.28.14:849][874]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.31-05.28.14:862][874]LogInit: FAudioDevice initialized.
+[2018.10.31-05.28.14:882][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.28.14:935][874]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.31-05.28.14:980][874]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.30-22.28.14
+[2018.10.31-05.28.14:983][874]LogWorld: Bringing up level for play took: 0.046783
+[2018.10.31-05.28.15:003][874]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.321
+[2018.10.31-05.28.15:003][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.28.15:984][888]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Set equipped
+[2018.10.31-05.28.15:985][888]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property myWeapon". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.28.17:872][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Melee_Hammer_1". Blueprint:  BP_Character Function:  Execute Ubergraph BP Character Graph:  EventGraph Node:  Branch
+[2018.10.31-05.28.18:444][987]LogBlueprintUserMessages: [MeleeHammer1_2] OVERLAPPED!
+[2018.10.31-05.28.18:501][990]LogActorComponent: Error: May not destroy component SphereComponent /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.equipSphere owned by BP_Melee_Hammer1_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.MeleeHammer1_2.
+[2018.10.31-05.28.19:405][ 30]LogBlueprintUserMessages: [MeleeHammer1_2] End overlap
+[2018.10.31-05.28.30:931][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.28.30:932][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.31-05.28.30:968][675]LogSlate: Window 'ZanyHammerEX2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.31-05.28.31:038][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.31-05.28.31:038][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.31-05.28.31:314][676]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.10.31-05.28.52:866][138]LogUObjectArray: Warning: Empty slot
+[2018.10.31-05.28.52:980][138]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.113 s
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: 
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: Stack: 
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb56d971f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb56ad0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb56aeb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb477111db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb4772060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb5515da7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb53c0ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb53bcf337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb563f8204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb5663e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb5645281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb5644e788 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffb5644dd17 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ff6b3d96aa7 UE4Editor.exe!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ff6b3da5b3c UE4Editor.exe!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ff6b3da5bba UE4Editor.exe!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ff6b3db3dac UE4Editor.exe!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ff6b3db5aaa UE4Editor.exe!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffbec243034 KERNEL32.DLL!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: [Callstack] 0x00007ffbec391461 ntdll.dll!UnknownFunction []
+[2018.10.31-05.28.52:980][138]LogOutputDevice: Error: 
+[2018.10.31-05.28.52:990][138]LogStats:                SubmitErrorReport -  0.000 s

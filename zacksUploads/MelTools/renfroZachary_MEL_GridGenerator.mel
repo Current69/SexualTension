@@ -1,0 +1,17 @@
+// executes the command 10 times
+    //$i is how many rows there are
+    //$j is how many columns there are
+for ( $i=0; $i<2; $i++ ){
+    for( $j=0; $j<10; ++$j )
+    		{
+    			// selects the wall
+    			select -r GEO_Wall1Front ;;
+    
+                // duplicates the wall
+                duplicate -rr;
+                
+    			// move the wall a bit in z (x,y,z ordering)
+    			xform -translation 0 ($i*2) (1*$j);
+    			
+    		}
+    	}
